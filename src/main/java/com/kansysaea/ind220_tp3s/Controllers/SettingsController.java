@@ -27,6 +27,7 @@ public class SettingsController {
     private String connectionType;
 
     public void initialize() {
+        rbTCP.setSelected(true);            // TCP par défaut
     }
 
     @FXML
