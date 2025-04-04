@@ -1,12 +1,12 @@
 // UDPProtocol.java
     package com.kansysaea.ind220_tp3s.IPProtocols;
 
-    import com.kansysaea.ind220_tp3s.Controllers.SocketUIController;
+import com.kansysaea.ind220_tp3s.Controllers.SocketUIController;
 
-    import java.io.IOException;
-    import java.net.DatagramPacket;
-    import java.net.DatagramSocket;
-    import java.net.InetAddress;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
 
     public class UDPProtocol implements IPProtocol {
         private final String ipAddress;
